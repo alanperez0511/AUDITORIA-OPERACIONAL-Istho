@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npx vite build 2>&1)",
+      "PowerShell(& \"$env:APPDATA\\\\npm\\\\npx.cmd\" vite build 2>&1 | Out-String)",
+      "PowerShell(& \"node_modules\\\\.bin\\\\vite.cmd\" build 2>&1)",
+      "PowerShell(& \"node_modules\\\\.bin\\\\eslint.cmd\" . 2>&1)"
+    ]
+  }
+}
